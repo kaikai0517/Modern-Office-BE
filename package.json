@@ -1,0 +1,26 @@
+{
+  "name": "modern-office-be",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node socket.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kaikai0517/Modern-Office-BE.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kaikai0517/Modern-Office-BE/issues"
+  },
+  "homepage": "https://github.com/kaikai0517/Modern-Office-BE#readme",
+  "dependencies": {
+    "@vercel/node": "^2.8.5",
+    "express": "^4.18.2",
+    "ws": "^8.12.0"
+  }
+}
